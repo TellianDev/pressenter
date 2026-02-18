@@ -42,4 +42,4 @@ links = [
 	{ url = "@/blog/_index.md", name = "Blog" },
 ]
 show_copyright = true
-show_powered_by = true
+show_powered_by = false
