@@ -1,4 +1,4 @@
-base_url = "http://pressenter.xyz"
+base_url = "https://pressenter.pages.dev"
 title = "pressEnter"
 
 compile_sass = true
@@ -25,6 +25,7 @@ index_format = "fuse_json"
 
 [extra]
 accent_color = "#3584e4"
+styles = ["custom.css"]
 show_copy_button = true
 show_reading_time = true
 show_share_button = true

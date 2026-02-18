@@ -1,0 +1,23 @@
+.crt {
+	margin-top: 0;
+
+	pre code {
+		font-size: 2rem;
+	}
+
+	& + .article-list {
+		// match the gap below the CRT title
+	}
+}
+
+main {
+	margin-top: 1.9375rem;
+}
+
+#heading {
+	margin-top: 0;
+
+	p {
+		margin: 0.25rem 0;
+	}
+}
