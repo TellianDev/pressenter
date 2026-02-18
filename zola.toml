@@ -1,0 +1,44 @@
+base_url = "http://pressenter.xyz"
+title = "pressEnter"
+
+compile_sass = true
+minify_html = true
+generate_feeds = true
+feed_filenames = ["rss.xml", "atom.xml"]
+build_search_index = true
+
+default_language = "en"
+theme = "duckquill"
+
+taxonomies = [{ name = "tags", feed = true }]
+
+[markdown]
+smart_punctuation = true
+bottom_footnotes = true
+
+[markdown.highlighting]
+theme = "solarized-dark"
+extra_syntaxes_and_themes = []
+
+[search]
+index_format = "fuse_json"
+
+[extra]
+accent_color = "#3584e4"
+show_copy_button = true
+show_reading_time = true
+show_share_button = true
+
+[extra.nav]
+show_feed = true
+show_theme_switcher = true
+links = [
+	{ url = "@/blog/_index.md", name = "Blog" },
+]
+
+[extra.footer]
+links = [
+	{ url = "@/blog/_index.md", name = "Blog" },
+]
+show_copyright = true
+show_powered_by = true
